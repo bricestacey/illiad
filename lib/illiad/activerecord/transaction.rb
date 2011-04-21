@@ -10,6 +10,7 @@ module Illiad
          status == 'Renewal Denied' or
          status =~ /Renewed by Customer to .*/ or
          status =~ /Renewed by ILL Staff to .*/ or
+         status == 'Awaiting Renewal OK Processing' or
          status == 'Loans Recalled from Patrons') ? true : false
       end
     end
