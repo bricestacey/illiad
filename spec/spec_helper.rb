@@ -8,7 +8,7 @@ Rspec.configure do |config|
   config.mock_with :rspec
 
   # Do not include a trailing slash in the URL!
-  config.add_setting :webcirc_url, :default => 'http://hostname/illiad/WebCirc'
+  config.add_setting :webcirc_url, :default => 'http://hostname'
   config.add_setting :webcirc_username, :default => 'username'
   config.add_setting :webcirc_password, :default => 'password'
 end
