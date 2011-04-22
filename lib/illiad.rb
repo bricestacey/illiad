@@ -1,4 +1,4 @@
-require 'illiad/webcirc'
+require 'illiad/web_circ/base'
 
 require 'active_record'
 require 'tiny_tds'
